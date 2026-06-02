@@ -1,0 +1,32 @@
+.DS_Store
+._*
+.AppleDouble
+.LSOverride
+
+# Logs and process files
+*.log
+*.pid
+*.pid.lock
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Build outputs and generated archives
+build/
+dist/
+out/
+DerivedData/
+*.app
+*.dmg
+*.pkg
+*.zip
+
+# Dependency and cache directories
+node_modules/
+.cache/
+.tmp/
+tmp/
